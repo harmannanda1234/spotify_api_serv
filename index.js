@@ -1,5 +1,7 @@
 const express= require("express");
+require('dotenv').config()
 const sprouter = require("./routes/spotify");
+
 
 
 const PORT =3030;
